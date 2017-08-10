@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E9FDA471F3AE36D009C3327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9FDA461F3AE36D009C3327 /* main.m */; };
+		3E9FDA4A1F3AE36D009C3327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9FDA491F3AE36D009C3327 /* AppDelegate.m */; };
+		3E9FDA501F3AE36D009C3327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9FDA4E1F3AE36D009C3327 /* Main.storyboard */; };
+		3E9FDA521F3AE36D009C3327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9FDA511F3AE36D009C3327 /* Assets.xcassets */; };
+		3E9FDA551F3AE36D009C3327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9FDA531F3AE36D009C3327 /* LaunchScreen.storyboard */; };
+		3E9FDA601F3AE36E009C3327 /* ledreaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9FDA5F1F3AE36E009C3327 /* ledreaderTests.m */; };
+		3E9FDA6B1F3AE36E009C3327 /* ledreaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9FDA6A1F3AE36E009C3327 /* ledreaderUITests.m */; };
+		3E9FDA791F3BE665009C3327 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E9FDA781F3BE665009C3327 /* ViewController.mm */; };
+		3E9FDA7E1F3BE743009C3327 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FDA7D1F3BE743009C3327 /* opencv2.framework */; };
+		3E9FDA801F3BE768009C3327 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FDA7F1F3BE768009C3327 /* AVFoundation.framework */; };
+		3E9FDA821F3BE770009C3327 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FDA811F3BE770009C3327 /* Accelerate.framework */; };
+		3E9FDA841F3BE778009C3327 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FDA831F3BE778009C3327 /* AssetsLibrary.framework */; };
+		3E9FDA861F3BE783009C3327 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FDA851F3BE783009C3327 /* CoreMedia.framework */; };
+		3E9FDA881F3BE78E009C3327 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FDA871F3BE78E009C3327 /* CoreVideo.framework */; };
+		3E9FDA8A1F3BE79A009C3327 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FDA891F3BE79A009C3327 /* CoreImage.framework */; };
+		3E9FDA8C1F3BE7A6009C3327 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9FDA8B1F3BE7A6009C3327 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E9FDA5C1F3AE36E009C3327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E9FDA3A1F3AE36D009C3327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E9FDA411F3AE36D009C3327;
+			remoteInfo = ledreader;
+		};
+		3E9FDA671F3AE36E009C3327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E9FDA3A1F3AE36D009C3327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E9FDA411F3AE36D009C3327;
+			remoteInfo = ledreader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E9FDA421F3AE36D009C3327 /* ledreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ledreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9FDA461F3AE36D009C3327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E9FDA481F3AE36D009C3327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E9FDA491F3AE36D009C3327 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E9FDA4B1F3AE36D009C3327 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E9FDA4F1F3AE36D009C3327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E9FDA511F3AE36D009C3327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E9FDA541F3AE36D009C3327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E9FDA561F3AE36D009C3327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9FDA5B1F3AE36E009C3327 /* ledreaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ledreaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9FDA5F1F3AE36E009C3327 /* ledreaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ledreaderTests.m; sourceTree = "<group>"; };
+		3E9FDA611F3AE36E009C3327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9FDA661F3AE36E009C3327 /* ledreaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ledreaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9FDA6A1F3AE36E009C3327 /* ledreaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ledreaderUITests.m; sourceTree = "<group>"; };
+		3E9FDA6C1F3AE36E009C3327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9FDA781F3BE665009C3327 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		3E9FDA7D1F3BE743009C3327 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = opencv/opencv2.framework; sourceTree = "<group>"; };
+		3E9FDA7F1F3BE768009C3327 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3E9FDA811F3BE770009C3327 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3E9FDA831F3BE778009C3327 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3E9FDA851F3BE783009C3327 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3E9FDA871F3BE78E009C3327 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3E9FDA891F3BE79A009C3327 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		3E9FDA8B1F3BE7A6009C3327 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E9FDA3F1F3AE36D009C3327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9FDA8C1F3BE7A6009C3327 /* QuartzCore.framework in Frameworks */,
+				3E9FDA8A1F3BE79A009C3327 /* CoreImage.framework in Frameworks */,
+				3E9FDA881F3BE78E009C3327 /* CoreVideo.framework in Frameworks */,
+				3E9FDA861F3BE783009C3327 /* CoreMedia.framework in Frameworks */,
+				3E9FDA841F3BE778009C3327 /* AssetsLibrary.framework in Frameworks */,
+				3E9FDA821F3BE770009C3327 /* Accelerate.framework in Frameworks */,
+				3E9FDA801F3BE768009C3327 /* AVFoundation.framework in Frameworks */,
+				3E9FDA7E1F3BE743009C3327 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9FDA581F3AE36E009C3327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9FDA631F3AE36E009C3327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E9FDA391F3AE36D009C3327 = {
+			isa = PBXGroup;
+			children = (
+				3E9FDA441F3AE36D009C3327 /* ledreader */,
+				3E9FDA5E1F3AE36E009C3327 /* ledreaderTests */,
+				3E9FDA691F3AE36E009C3327 /* ledreaderUITests */,
+				3E9FDA431F3AE36D009C3327 /* Products */,
+				3E9FDA7C1F3BE743009C3327 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E9FDA431F3AE36D009C3327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E9FDA421F3AE36D009C3327 /* ledreader.app */,
+				3E9FDA5B1F3AE36E009C3327 /* ledreaderTests.xctest */,
+				3E9FDA661F3AE36E009C3327 /* ledreaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E9FDA441F3AE36D009C3327 /* ledreader */ = {
+			isa = PBXGroup;
+			children = (
+				3E9FDA481F3AE36D009C3327 /* AppDelegate.h */,
+				3E9FDA491F3AE36D009C3327 /* AppDelegate.m */,
+				3E9FDA4B1F3AE36D009C3327 /* ViewController.h */,
+				3E9FDA781F3BE665009C3327 /* ViewController.mm */,
+				3E9FDA4E1F3AE36D009C3327 /* Main.storyboard */,
+				3E9FDA511F3AE36D009C3327 /* Assets.xcassets */,
+				3E9FDA531F3AE36D009C3327 /* LaunchScreen.storyboard */,
+				3E9FDA561F3AE36D009C3327 /* Info.plist */,
+				3E9FDA451F3AE36D009C3327 /* Supporting Files */,
+			);
+			path = ledreader;
+			sourceTree = "<group>";
+		};
+		3E9FDA451F3AE36D009C3327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9FDA461F3AE36D009C3327 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E9FDA5E1F3AE36E009C3327 /* ledreaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E9FDA5F1F3AE36E009C3327 /* ledreaderTests.m */,
+				3E9FDA611F3AE36E009C3327 /* Info.plist */,
+			);
+			path = ledreaderTests;
+			sourceTree = "<group>";
+		};
+		3E9FDA691F3AE36E009C3327 /* ledreaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E9FDA6A1F3AE36E009C3327 /* ledreaderUITests.m */,
+				3E9FDA6C1F3AE36E009C3327 /* Info.plist */,
+			);
+			path = ledreaderUITests;
+			sourceTree = "<group>";
+		};
+		3E9FDA7C1F3BE743009C3327 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E9FDA8B1F3BE7A6009C3327 /* QuartzCore.framework */,
+				3E9FDA891F3BE79A009C3327 /* CoreImage.framework */,
+				3E9FDA871F3BE78E009C3327 /* CoreVideo.framework */,
+				3E9FDA851F3BE783009C3327 /* CoreMedia.framework */,
+				3E9FDA831F3BE778009C3327 /* AssetsLibrary.framework */,
+				3E9FDA811F3BE770009C3327 /* Accelerate.framework */,
+				3E9FDA7F1F3BE768009C3327 /* AVFoundation.framework */,
+				3E9FDA7D1F3BE743009C3327 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E9FDA411F3AE36D009C3327 /* ledreader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9FDA6F1F3AE36E009C3327 /* Build configuration list for PBXNativeTarget "ledreader" */;
+			buildPhases = (
+				3E9FDA3E1F3AE36D009C3327 /* Sources */,
+				3E9FDA3F1F3AE36D009C3327 /* Frameworks */,
+				3E9FDA401F3AE36D009C3327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ledreader;
+			productName = ledreader;
+			productReference = 3E9FDA421F3AE36D009C3327 /* ledreader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E9FDA5A1F3AE36E009C3327 /* ledreaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9FDA721F3AE36E009C3327 /* Build configuration list for PBXNativeTarget "ledreaderTests" */;
+			buildPhases = (
+				3E9FDA571F3AE36E009C3327 /* Sources */,
+				3E9FDA581F3AE36E009C3327 /* Frameworks */,
+				3E9FDA591F3AE36E009C3327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E9FDA5D1F3AE36E009C3327 /* PBXTargetDependency */,
+			);
+			name = ledreaderTests;
+			productName = ledreaderTests;
+			productReference = 3E9FDA5B1F3AE36E009C3327 /* ledreaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E9FDA651F3AE36E009C3327 /* ledreaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9FDA751F3AE36E009C3327 /* Build configuration list for PBXNativeTarget "ledreaderUITests" */;
+			buildPhases = (
+				3E9FDA621F3AE36E009C3327 /* Sources */,
+				3E9FDA631F3AE36E009C3327 /* Frameworks */,
+				3E9FDA641F3AE36E009C3327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E9FDA681F3AE36E009C3327 /* PBXTargetDependency */,
+			);
+			name = ledreaderUITests;
+			productName = ledreaderUITests;
+			productReference = 3E9FDA661F3AE36E009C3327 /* ledreaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E9FDA3A1F3AE36D009C3327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sunix;
+				TargetAttributes = {
+					3E9FDA411F3AE36D009C3327 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+					3E9FDA5A1F3AE36E009C3327 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E9FDA411F3AE36D009C3327;
+					};
+					3E9FDA651F3AE36E009C3327 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E9FDA411F3AE36D009C3327;
+					};
+				};
+			};
+			buildConfigurationList = 3E9FDA3D1F3AE36D009C3327 /* Build configuration list for PBXProject "ledreader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E9FDA391F3AE36D009C3327;
+			productRefGroup = 3E9FDA431F3AE36D009C3327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E9FDA411F3AE36D009C3327 /* ledreader */,
+				3E9FDA5A1F3AE36E009C3327 /* ledreaderTests */,
+				3E9FDA651F3AE36E009C3327 /* ledreaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E9FDA401F3AE36D009C3327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9FDA551F3AE36D009C3327 /* LaunchScreen.storyboard in Resources */,
+				3E9FDA521F3AE36D009C3327 /* Assets.xcassets in Resources */,
+				3E9FDA501F3AE36D009C3327 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9FDA591F3AE36E009C3327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9FDA641F3AE36E009C3327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E9FDA3E1F3AE36D009C3327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9FDA791F3BE665009C3327 /* ViewController.mm in Sources */,
+				3E9FDA4A1F3AE36D009C3327 /* AppDelegate.m in Sources */,
+				3E9FDA471F3AE36D009C3327 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9FDA571F3AE36E009C3327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9FDA601F3AE36E009C3327 /* ledreaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9FDA621F3AE36E009C3327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9FDA6B1F3AE36E009C3327 /* ledreaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E9FDA5D1F3AE36E009C3327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E9FDA411F3AE36D009C3327 /* ledreader */;
+			targetProxy = 3E9FDA5C1F3AE36E009C3327 /* PBXContainerItemProxy */;
+		};
+		3E9FDA681F3AE36E009C3327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E9FDA411F3AE36D009C3327 /* ledreader */;
+			targetProxy = 3E9FDA671F3AE36E009C3327 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E9FDA4E1F3AE36D009C3327 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9FDA4F1F3AE36D009C3327 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E9FDA531F3AE36D009C3327 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9FDA541F3AE36D009C3327 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E9FDA6D1F3AE36E009C3327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E9FDA6E1F3AE36E009C3327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E9FDA701F3AE36E009C3327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/opencv",
+				);
+				INFOPLIST_FILE = ledreader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunix.ledreader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		3E9FDA711F3AE36E009C3327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/opencv",
+				);
+				INFOPLIST_FILE = ledreader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunix.ledreader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		3E9FDA731F3AE36E009C3327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ledreaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunix.ledreaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ledreader.app/ledreader";
+			};
+			name = Debug;
+		};
+		3E9FDA741F3AE36E009C3327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ledreaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunix.ledreaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ledreader.app/ledreader";
+			};
+			name = Release;
+		};
+		3E9FDA761F3AE36E009C3327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ledreaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunix.ledreaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ledreader;
+			};
+			name = Debug;
+		};
+		3E9FDA771F3AE36E009C3327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ledreaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunix.ledreaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ledreader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E9FDA3D1F3AE36D009C3327 /* Build configuration list for PBXProject "ledreader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9FDA6D1F3AE36E009C3327 /* Debug */,
+				3E9FDA6E1F3AE36E009C3327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E9FDA6F1F3AE36E009C3327 /* Build configuration list for PBXNativeTarget "ledreader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9FDA701F3AE36E009C3327 /* Debug */,
+				3E9FDA711F3AE36E009C3327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E9FDA721F3AE36E009C3327 /* Build configuration list for PBXNativeTarget "ledreaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9FDA731F3AE36E009C3327 /* Debug */,
+				3E9FDA741F3AE36E009C3327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E9FDA751F3AE36E009C3327 /* Build configuration list for PBXNativeTarget "ledreaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9FDA761F3AE36E009C3327 /* Debug */,
+				3E9FDA771F3AE36E009C3327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E9FDA3A1F3AE36D009C3327 /* Project object */;
+}
